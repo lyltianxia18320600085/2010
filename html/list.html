@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/list.css">
+    <link rel="stylesheet" href="../icon-font/iconfont.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/list.js"></script>
+    <script src="../js/pagination.js"></script>
+</head>
+
+<body>
+    <!-- 列表页头部 -->
+    <header class="head">
+        <div class="head_center">
+            <img src="../img/logo.png" alt="">
+            <div class="head_btn">
+                <input type="text" placeholder="&nbsp;请输入商品名称">
+                <button>搜索</button>
+            </div>
+            <p><button class="denglu"><a href="../index.html">返回首页</a></button></p>
+        </div>
+    </header>
+
+    <!-- 列表页内容 -->
+    <article class="listCoent">
+        <section class="listHead">
+            <div class="lh1">默认</div>
+            <div class="lh2">价格<span class="iconfont icon-shangxia"></span></div>
+            <div class="lh3">销量<span class="iconfont icon-shangxia"></span></div>
+            <div class="lh4"><span class="iconfont icon-dui"></span> 含有优惠券</div>
+            <div class="lh5">
+                <div class="lH5">
+                    <span>价格：</span>
+                    <input type="text" class="lhinp1" disabled>
+                    <span>元</span>
+                    <span>-</span>
+                    <input type="text" class="lhinp2" disabled>
+                    <span>元</span>
+                    <button class="lhsure">确认</button>
+                    <span class="lhclose">取消</span>
+                    <nav>
+                        <li>0-20元</li>
+                        <li>20-50元</li>
+                        <li>50-100元</li>
+                        <li>100-500元</li>
+                        <li>500-1000元</li>
+                    </nav>
+                </div>
+            </div>
+            <div class="lh6"><span>店铺评分:</span>
+                <select name="" id="">
+                    <option value="">不限</option>
+                    <option value="">5.0</option>
+                    <option value="">4.9</option>
+                    <option value="">4.8</option>
+                    <option value="">4.7</option>
+                    <option value="">4.6</option>
+                </select>
+                <span>及以上</span>
+            </div>
+        </section>
+        <section class="container">
+            <ul class="clist">
+                <!-- <li>
+                    <div class="lShop">
+                        <img src="../img/br1.jpeg" class="lShop1" alt="">
+                        <p class="lShop2">森马女款条纹短袖衬衫</p>
+                        <p class="lShop3"><span>43.00</span><span>原价49.00</span></p>
+                        <p class="lShop4">销量98</p>
+                        <div class="lShop5">立即抢购</div>
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+        <div class="cpage"></div>
+    </article>
+
+
+    <!-- 尾部 -->
+    <footer class="foot">
+        <p>Copyright 2015-2021 pindduoduo.com 版权所有 (泸ICP备15010535号)</p>
+        <p><span></span>泸公网安备 31010502000392号</p>
+    </footer>
+</body>
+
+</html>
